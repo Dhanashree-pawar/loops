@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int r=5;
+  int sum=0;
+  for(int i=0;i<=r;i++){// do not forget <= r,
+      sum= sum+i;
+  }
+  cout<<sum;
+    return 0;
+}
