@@ -1,0 +1,15 @@
+// taylor series using horner's rule using loop
+#include <iostream>
+
+using namespace std;
+double e(double x, double n){
+    double s ;
+    for(;n>0;n--) s=1+(x/n*s);
+    return s;
+}
+int main()
+{
+    cout<<e(2,15);
+
+    return 0;
+}
